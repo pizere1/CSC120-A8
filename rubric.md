@@ -44,4 +44,4 @@ __YES___ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
 __YES___ 1 pt: All required files included with submission (including completed `rubric.md` file)
 
-___YES__ 1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the class you implemented and what it does**
+__YES___ 1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the class you implemented and what it does**
