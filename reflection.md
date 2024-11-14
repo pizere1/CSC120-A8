@@ -8,5 +8,5 @@ Use this file to record your reflection on this assignment.
 - I also added a drop() method for the owl to descend from a certain height.
 - 
 - What worked, what didn't, what advice would you give someone taking this course in the future?
-- Before completing all the methods I had red errror lines which confuse me at first as I din't understand their reason but I letr realized that they disappered once I completed all methods from the Comntract.
-- I would highly reemphasize on saving enough time to brainstorm and plan ahead for the assignment to be able to deal with any unexpected errors and bugs that may happen.
+- Before completing all the methods I had red errror lines which confused me at first as I din't understand their reason but I later realized that they disappered once I completed all methods from the Contract.
+- I would highly reemphasize my advice on saving enough time to brainstorm and plan ahead for the assignment to be able to deal with any unexpected errors and bugs that may happen.
