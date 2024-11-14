@@ -9,4 +9,4 @@ Use this file to record your reflection on this assignment.
 - 
 - What worked, what didn't, what advice would you give someone taking this course in the future?
 - Before completing all the methods I had red errror lines which confused me at first as I din't understand their reason but I later realized that they disappered once I completed all methods from the Contract.
-- I would highly reemphasize my advice on saving enough time to brainstorm and plan ahead for the assignment to be able to deal with any unexpected errors and bugs that may happen.
+- I would highly reemphasize my advice on saving enough time to brainstorm and plan ahead for the assignment to be able to deal with any unexpected errors and bugs that may happen. 
