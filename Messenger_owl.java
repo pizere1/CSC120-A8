@@ -112,8 +112,7 @@ public class Messenger_Owl implements Contract {
 
     /**
      * method for the messenger owl to drop vertically to a coordinated y.
-     * @param y takes in the y location to drop to
-     *          if it is negative, an exception if thrown
+     * @param y takes in the y location to drop to if greater than y_location, an exception if thrown
      */
     public void drop (int y){
         if(isalive()){
