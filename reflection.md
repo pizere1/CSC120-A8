@@ -5,7 +5,7 @@ Use this file to record your reflection on this assignment.
 -   
 - What additional methods (if any) did you implement alongside those listed in the interface?
 -   I added an isalive() method which is called at the start of every method to verify the current life status of the owl. If the owl is dead, it throws an exception to buy a new owl.
-- I also added a drop() method for the owl to drop itself from a certain height.
+- I also added a drop() method for the owl to descend from a certain height.
 - 
 - What worked, what didn't, what advice would you give someone taking this course in the future?
 - Before completing all the methods I had red errror lines which confuse me at first as I din't understand their reason but I letr realized that they disappered once I completed all methods from the Comntract.
