@@ -1,5 +1,11 @@
 import java.util.ArrayList;
 public class Messenger_Owl implements Contract {
+    /**
+     *    A messenger owl takes message to people
+     *    It grabs() (the parcel then fly() to the specified location
+     *    It examines() if the dropbox name is the same as the specified destination then drops() the parcel
+     * Drop energy level for everything
+     */
     /* Attributes*/
     String owl_name;
     int x_location;
@@ -112,7 +118,8 @@ public class Messenger_Owl implements Contract {
 
     /**
      * method for the messenger owl to drop vertically to a coordinated y.
-     * @param y takes in the y location to drop to if greater than y_location, an exception if thrown
+     * @param y takes in the y location to drop to
+     *          if it is negative, an exception if thrown
      */
     public void drop (int y){
         if(isalive()){
@@ -235,23 +242,29 @@ public class Messenger_Owl implements Contract {
         return this.owl_name + " is owned by " + this.ownername+ " and" + s + "and currently has "+ this.energy_level+" kcal energy";
     }
     public static void main(String[] args) {
-        Messenger_Owl Hedwig=new Messenger_Owl("Hedwig", 3,5,"Harry Potter");
-        System.out.println(Hedwig);
-        Hedwig.grab("Toothbrush");
-        Hedwig.grab("Toothpaste");
-        Hedwig.drop("Toothbrush");
-        Hedwig.drop("Colgate");
-        Hedwig.examine("Harry Potter");
-        Hedwig.examine("Ron");
-        Hedwig.use("Toothpaste");
-        System.out.println(Hedwig);
-        Hedwig.drop(5);
-        Hedwig.walk("forward");
-        Hedwig.fly(7,9);
-        Hedwig.shrink();
-        Hedwig.grow();
-        Hedwig.rest();
-        Hedwig.undo();
-        Hedwig.grab("Hat");
+        Messenger_Owl hedwig=new Messenger_Owl("Hedwig", 3,5,"Harry Potter");
+        System.out.println(hedwig);
+        hedwig.grab("Toothbrush");
+        hedwig.grab("Toothpaste");
+        hedwig.drop("Toothbrush");
+        hedwig.drop("Colgate");
+        hedwig.examine("Harry Potter");
+        hedwig.examine("Ron");
+        hedwig.use("Toothpaste");
+        System.out.println(hedwig);
+        hedwig.drop(5);
+        hedwig.walk("forward");
+        hedwig.fly(7,9);
+        hedwig.shrink();
+        hedwig.grow();
+        hedwig.rest();
+        hedwig.undo();
+        hedwig.grab("Hat");
     }
 }
+/**
+ * A messenger owl takes message to people
+ * It grabs() (the parcel then fly() to the specified location
+ * It examines() if the dropbox name is the same as the specified destination then drops() the parcel
+ * Drop energy level for everything
+ */
